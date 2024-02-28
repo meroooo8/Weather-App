@@ -1,10 +1,43 @@
 body{
-    font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    background-color: cornflowerblue;
+}
+}
+.container{
+    width: 100%;
+    background-color: grey;
     margin: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: end;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    
+    
+
+}
+li{
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+li:hover{
+    background-color: rgb(222, 2, 2);
+}
+.kartaa{
+    display: flex;
+    justify-content: center;
 }
 .weatherForm{
     margin: 20px;
